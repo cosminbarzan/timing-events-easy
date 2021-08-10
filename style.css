@@ -1,0 +1,36 @@
+.box-container {
+    display: flex;
+    margin-top: 1.5em;
+    justify-content: center;
+}
+
+.box {
+    background-color: #ddd;
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 0.15em;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 10em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
